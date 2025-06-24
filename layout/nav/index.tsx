@@ -4,7 +4,6 @@ import {COLORS} from "@/constants/colors";
 const Navigation = () => {
     return (
         <View style={styles.navContainer}>
-
         </View>
     )
 }
@@ -12,15 +11,11 @@ const Navigation = () => {
 const styles = StyleSheet.create({
     navContainer: {
         backgroundColor: COLORS.mainBlack,
-
-        height: 100,
-
+        height: 80,
         paddingBlock: 26,
-        paddingInline: 30,
-
+        paddingInline: 36,
         position: "relative",
-        bottom: 20,
-
+        bottom: 40,
         borderRadius: 50
     }
 })
